@@ -6,6 +6,8 @@ if n.isalpha():
     elif n.islower():
         print("Letter is lower case")
 elif n.isdigit():
+    from num2words import num2words
+    num2words(n)
     print("It is a digit")
 else:
     print("it is a special character")
